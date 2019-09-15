@@ -43,6 +43,10 @@
 
                 <img src="/Images/sweMap.png" alt="Karta var sverige finns" />
 
+                <video width="320" height="240" controls>
+                    <source src="/Video/Travel Guide- Stockholm, Sweden.mp4" type="video/mp4" />
+                </video>
+
             </article>
 
             <article>
@@ -148,6 +152,44 @@
         </div>
     
         <aside>
+
+            <form action="">
+                <fieldset>
+                    <legend>Kontakta mig</legend>
+
+                    Namn:<br/>
+                    <input type="text" name="lastName" placeholder="För- och efternamn"><br/><br/>
+
+                    E-mail:<br/>
+                    <input type="email" name="email" placeholder="exempel@mail.se"><br/><br/>
+
+                    URL till hemsida:<br/>
+                    <input type="url" name="url" placeholder="Skriv in URL här..."><br/><br/>
+
+                    Checka i boxen för svar på meddelande: 
+                    <input type="checkbox" name="svar"><br/><br/>
+
+                    Kopia på meddelande:<br/>
+                    <input type="radio" name="radioButton">Ja<br/>
+                    <input type="radio" name="radioButton">Nej<br/><br/>
+
+                    Ämne på meddelande:<br/>
+                    <select name="subject">
+                        <option value="question">Fråga</option>
+                        <option value="tips">Tips</option>
+                        <option value="other">Annat</option>
+                    </select><br/><br/>
+
+                    Ladda upp fil:<br/>
+                    <input type="file" name="file"><br/><br/>
+
+                    Meddelande:<br/>
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Skriv ditt medelande här..."></textarea><br/><br/>
+
+                    <input type="button" value="Skicka">
+
+                </fieldset>
+            </form>
             
         </aside>
         <footer>
