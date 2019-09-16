@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="sv">
 <head>
     <title>Home</title>
     <meta name="author" content="Maximilian Holm">
@@ -44,7 +44,7 @@
                 <img src="/Images/sweMap.png" alt="Karta var sverige finns" />
 
                 <video width="320" height="240" controls>
-                    <source src="/Video/Travel Guide- Stockholm, Sweden.mp4" type="video/mp4" />
+                    <source src="/Video/TravelGuideStockholm.mp4" type="video/mp4" />
                 </video>
 
             </article>
@@ -117,7 +117,7 @@
                      </tbody>
                      <tfoot>
                         <tr>
-                            <td colspan="5" rowspan="2">(Statistiken är den senaste tillgängliga. Tätorter från 31 december 2018, kommuner från 30 juni 2019)</td>
+                            <td colspan="5">(Statistiken är den senaste tillgängliga. Tätorter från 31 december 2018, kommuner från 30 juni 2019)</td>
                         </tr>
                      </tfoot>
                 </table>
@@ -153,38 +153,38 @@
     
         <aside>
 
-            <form action="">
+            <form action="/test.php">
                 <fieldset>
                     <legend>Kontakta mig</legend>
 
-                    Namn:<br/>
-                    <input type="text" name="lastName" placeholder="För- och efternamn"><br/><br/>
+                    <label>Namn:</label><br/>
+                    <input type="text" name="lastName" placeholder="För- och efternamn" autofocus required><br/><br/>
 
-                    E-mail:<br/>
-                    <input type="email" name="email" placeholder="exempel@mail.se"><br/><br/>
+                    <label>E-mail:</label><br/>
+                    <input type="email" name="email" placeholder="exempel@mail.se" required><br/><br/>
 
-                    URL till hemsida:<br/>
+                    <label>URL till hemsida:</label><br/>
                     <input type="url" name="url" placeholder="Skriv in URL här..."><br/><br/>
 
-                    Checka i boxen för svar på meddelande: 
-                    <input type="checkbox" name="svar"><br/><br/>
+                    <label>Checka i boxen om du vill ha svar på meddelande: </label>
+                    <input type="checkbox" name="svar" required><br/><br/>
 
-                    Kopia på meddelande:<br/>
+                    <label>Kopia på meddelande:</label><br/>
                     <input type="radio" name="radioButton">Ja<br/>
                     <input type="radio" name="radioButton">Nej<br/><br/>
 
-                    Ämne på meddelande:<br/>
+                    <label>Ämne på meddelande:</label><br/>
                     <select name="subject">
                         <option value="question">Fråga</option>
                         <option value="tips">Tips</option>
                         <option value="other">Annat</option>
                     </select><br/><br/>
 
-                    Ladda upp fil:<br/>
+                    <label>Ladda upp fil:</label><br/>
                     <input type="file" name="file"><br/><br/>
 
-                    Meddelande:<br/>
-                    <textarea name="message" id="" cols="30" rows="10" placeholder="Skriv ditt medelande här..."></textarea><br/><br/>
+                    <label>Meddelande:</label><br/>
+                    <textarea name="message" cols="30" rows="10" placeholder="Skriv ditt medelande här..." required></textarea><br/><br/>
 
                     <input type="button" value="Skicka">
 
