@@ -1,9 +1,12 @@
-html {}
-body {}
+html {
+    
+}
+body {
+    
+}
 
 #page {
     width: 100%;
-    overflow: hidden;
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
 }
@@ -18,14 +21,12 @@ header {
 
 #content {
     height: auto;
-    border: 1px solid red;
     grid-column-start: 1;
-    grid-column-end: 6;
+    grid-column-end: 2;
 }
 
 aside {
    height: auto;
-   border: 1px solid red;
 }
 
 article {
@@ -34,7 +35,6 @@ article {
 }
 
 footer {
-    border: 1px solid red;
     clear: both;
     grid-column-start: 1;
     grid-column-end: 7;
