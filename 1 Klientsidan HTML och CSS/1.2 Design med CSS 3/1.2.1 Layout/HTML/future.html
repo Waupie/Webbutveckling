@@ -8,6 +8,7 @@
     <meta name="keywords" content="HTML">
     <meta name="robot" content="index">
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/CSS/style.css">
 </head>
 <body>
     <div id="page">
@@ -27,6 +28,44 @@
             </article>
         </div>
         <aside>
+
+            <form action="">
+                <fieldset>
+                    <legend>Kontakta mig</legend>
+
+                    <label>Namn:</label><br/>
+                    <input type="text" name="lastName" placeholder="För- och efternamn" autofocus required><br/><br/>
+
+                    <label>E-mail:</label><br/>
+                    <input type="email" name="email" placeholder="exempel@mail.se" required><br/><br/>
+
+                    <label>URL till hemsida:</label><br/>
+                    <input type="url" name="url" placeholder="Skriv in URL här..."><br/><br/>
+
+                    <label>Checka i boxen om du vill ha svar på meddelande: </label>
+                    <input type="checkbox" name="svar" required><br/><br/>
+
+                    <label>Kopia på meddelande:</label><br/>
+                    <input type="radio" name="radioButton">Ja<br/>
+                    <input type="radio" name="radioButton">Nej<br/><br/>
+
+                    <label>Ämne på meddelande:</label><br/>
+                    <select name="subject">
+                        <option value="question">Fråga</option>
+                        <option value="tips">Tips</option>
+                        <option value="other">Annat</option>
+                    </select><br/><br/>
+
+                    <label>Ladda upp fil:</label><br/>
+                    <input type="file" name="file"><br/><br/>
+
+                    <label>Meddelande:</label><br/>
+                    <textarea name="message" cols="30" rows="10" placeholder="Skriv ditt medelande här..." required></textarea><br/><br/>
+
+                    <input type="button" value="Skicka">
+
+                </fieldset>
+            </form>
             
         </aside>
         <footer>
