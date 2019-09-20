@@ -1,0 +1,41 @@
+html {}
+body {}
+
+#page {
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+#content {
+    height: auto;
+    border: 1px solid red;
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+aside {
+   height: auto;
+   border: 1px solid red;
+}
+
+article {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    border: 1px solid red;
+    clear: both;
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
