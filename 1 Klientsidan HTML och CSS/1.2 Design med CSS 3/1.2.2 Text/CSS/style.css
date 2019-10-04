@@ -94,3 +94,27 @@ video {
     width: 100%;
     height: auto;
 }
+
+/*
+ a:link, a:active, a:visited, a:hover
+*/
+
+/* unvisited link */
+a:link {
+
+}
+
+/* selected link */
+a:active {
+
+}
+
+/* visited link */
+a:visited {
+
+}
+
+/* mouse over link */
+a:hover {
+
+}
