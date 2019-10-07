@@ -1,0 +1,135 @@
+html {
+    color: lightslategray;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0;
+}
+
+body {
+    
+}
+
+#page {
+    width: 80%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-color: yellow;
+    color: blue;
+    font-size: 2em;
+    border: 2px solid blue;
+    overflow: hidden;
+    height: auto;
+    box-sizing: border-box;
+}
+
+nav {
+    box-sizing: border-box;
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-around;
+}
+
+#content {
+    position: relative;
+    float: left;
+    width: 70%;
+    height: auto;
+    box-sizing: border-box;
+    padding-right: 1em;
+    
+}
+#content::after {
+    clear: both;
+}
+
+aside {
+    
+    position: relative;
+    float: left;
+    width: 30%;
+    z-index: 1;
+    box-sizing: border-box;
+}
+form {
+    width: 100%;
+}
+
+article {
+    border: 2px solid gray;
+    border-radius: 2em;
+    margin-bottom: 1em;
+    padding: 1em;
+    background-color: white;
+}
+article h2 {
+    text-align: center;
+}
+
+footer {
+    display: table;
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+#rubrik {
+    text-align: center;
+}
+
+audio {
+    width: 100%;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+/*
+ a:link, a:active, a:visited, a:hover
+*/
+
+nav a {
+    text-decoration: none;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+/* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* selected link */
+a:active {
+    text-decoration: underline;
+}
+
+/* visited link */
+a:visited {
+    color: lightblue;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+#currentSelect {
+    text-decoration: underline;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+table {
+    table-layout: auto;
+    width: 100%;
+}

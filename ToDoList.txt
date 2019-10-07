@@ -1,0 +1,3 @@
+To do list
+
+1) Finish 1.2.6, figure what to do as information for this part is unclear
