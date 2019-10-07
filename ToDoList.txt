@@ -1,3 +1,4 @@
 To do list
 
 1) Finish 1.2.6, figure what to do as information for this part is unclear
+2) Fix so that video plays on 1.2.7, everything else seems to work. You can get good info about design etc from the recourses the teacher put up on the website.
