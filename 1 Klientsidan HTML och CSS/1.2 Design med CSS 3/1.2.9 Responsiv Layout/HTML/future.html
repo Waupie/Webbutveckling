@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Future</title>
+    <meta name="author" content="Maximilian Holm">
+    <meta name="description" content="Klientsidan HTML och CSS">
+    <meta name="generator" content="Visual Studio Code">
+    <meta name="keywords" content="HTML">
+    <meta name="robot" content="index">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/CSS/style.css">
+</head>
+<body>
+    <div id="page">
+        <header>
+            <nav>
+                <a href="/HTML/home.html">Home</a>
+                <a href="/HTML/history.html">History</a>
+                <a href="/HTML/now.html">Now</a>
+                <a href="/HTML/future.html" id="currentSelect">Future</a>
+            </nav>
+        </header>
+        <div id="content">
+            
+        </div>
+        <aside>
+
+            <form action="">
+                <fieldset>
+                    <legend>Kontakta mig</legend>
+
+                    <label>Namn:</label><br/>
+                    <input type="text" name="lastName" placeholder="För- och efternamn" autofocus required><br/><br/>
+
+                    <label>E-mail:</label><br/>
+                    <input type="email" name="email" placeholder="exempel@mail.se" required><br/><br/>
+
+                    <label>URL till hemsida:</label><br/>
+                    <input type="url" name="url" placeholder="Skriv in URL här..."><br/><br/>
+
+                    <label>Checka i boxen om du vill ha svar på meddelande: </label>
+                    <input type="checkbox" name="svar" required><br/><br/>
+
+                    <label>Kopia på meddelande:</label><br/>
+                    <input type="radio" name="radioButton">Ja<br/>
+                    <input type="radio" name="radioButton">Nej<br/><br/>
+
+                    <label>Ämne på meddelande:</label><br/>
+                    <select name="subject">
+                        <option value="question">Fråga</option>
+                        <option value="tips">Tips</option>
+                        <option value="other">Annat</option>
+                    </select><br/><br/>
+
+                    <label>Ladda upp fil:</label><br/>
+                    <input type="file" name="file"><br/><br/>
+
+                    <label>Meddelande:</label><br/>
+                    <textarea name="message" cols="30" rows="10" placeholder="Skriv ditt medelande här..." required></textarea><br/><br/>
+
+                    <input type="button" value="Skicka">
+
+                </fieldset>
+            </form>
+            
+        </aside>
+        <footer>
+            <details>
+                <summary><a href="mailto:waup.max@gmail.com">Send me an email</a></summary>
+            </details>
+        </footer>
+    </div>
+</body>
+</html>
