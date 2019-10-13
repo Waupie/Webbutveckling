@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     color: lightslategray;
     font-family: 'Times New Roman', Times, serif;
@@ -11,7 +15,6 @@ body {
 #page {
     width: 80%;
     margin: auto;
-    box-sizing: border-box;
 }
 
 header {
@@ -22,11 +25,9 @@ header {
     border: 2px solid blue;
     overflow: hidden;
     height: auto;
-    box-sizing: border-box;
 }
 
 nav {
-    box-sizing: border-box;
     padding: 0.5em;
     display: flex;
     justify-content: space-around;
@@ -37,7 +38,6 @@ nav {
     float: left;
     width: 70%;
     height: auto;
-    box-sizing: border-box;
     padding-right: 1em;
     
 }
@@ -51,7 +51,6 @@ aside {
     float: left;
     width: 30%;
     z-index: 1;
-    box-sizing: border-box;
 }
 form {
     width: 100%;
@@ -153,4 +152,10 @@ ol, ul {
 table {
     table-layout: auto;
     width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    #page, #content, aside {
+        width: 100%;
+    }
 }
