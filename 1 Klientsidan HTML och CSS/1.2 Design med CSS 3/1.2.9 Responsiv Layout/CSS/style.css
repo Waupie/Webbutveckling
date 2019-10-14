@@ -6,6 +6,7 @@ html {
     color: lightslategray;
     font-family: 'Times New Roman', Times, serif;
     letter-spacing: 0;
+    background-color: lightblue;
 }
 
 body {
@@ -154,8 +155,39 @@ table {
     width: 100%;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1201px) {
     #page, #content, aside {
         width: 100%;
+    }
+
+    #content {
+        padding: 0;
+    }
+
+    article {
+        border: none;
+    }
+    
+}
+
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+    #content {
+        /* Use grid here */
+
+        /* Maybe even change everything to use grid(?) */
+        padding-left: 20vh;
+        padding-right: 20vh;
+    }
+
+}
+
+@media screen and (max-width: 701px) {
+    header {
+        font-size: 1.4em;
+    }
+}
+@media screen and (max-width: 450px) {
+    header {
+        font-size: 1em;
     }
 }
