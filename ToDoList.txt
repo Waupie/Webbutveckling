@@ -1,4 +1,7 @@
 To do list
 
-1) Finish 1.2.6, figure what to do as information for this part is unclear
-2) Fix so that video plays on 1.2.7, everything else seems to work. You can get good info about design etc from the recourses the teacher put up on the website.
+1 - 1.2.6) Finish 1.2.6, figure what to do as information for this part is unclear
+
+2 - 1.2.7) Fix so that video plays on 1.2.7, everything else seems to work. You can get good info about design etc from the recourses the teacher put up on the website.
+
+3 - 1.2.9) Added grid to the website in 1.2.9, then add it to all the other ones after 1.2.9 that hasn't been added yet.
