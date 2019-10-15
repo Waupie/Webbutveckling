@@ -29,6 +29,14 @@ if (flock($file, LOCK_EX)) {
 }
 fclose($file);
 
+// Här är den senaste som sedan sparas i filen,
+// men visas inte förän nästa gång man laddar om sidan,
+// därför skrivs det senaste ut direkt
+echo "Datum:       " . date("Y/m/d\n");
+echo "Tid:         " . date("h:i:sa\n");
+echo "IP-adress:   " . $_SERVER['REMOTE_ADDR'] . "\n";
+echo "Webbläsare:  " . $_SERVER['HTTP_USER_AGENT'] . "\n\n";
+
 echo $added_data;
 
 ?>
