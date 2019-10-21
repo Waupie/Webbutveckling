@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+html {
+    color: lightslategray;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0;
+    background-color: lightblue;
+}
+
+body {
+    
+}
+
+#page {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    background-color: yellow;
+    color: blue;
+    font-size: 2em;
+    border: 2px solid blue;
+    overflow: hidden;
+    height: auto;
+}
+
+nav {
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-around;
+}
+
+#content {
+    position: relative;
+    float: left;
+    width: 70%;
+    height: auto;
+    padding-right: 1em;
+    
+}
+#content::after {
+    clear: both;
+}
+
+aside {
+    
+    position: relative;
+    float: left;
+    width: 30%;
+    z-index: 1;
+}
+form {
+    width: 100%;
+}
+form input {
+    background-image: url("/Assets/Images/pen.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1em;
+    resize: none;
+}
+form input, textarea {
+    border: 2px solid blue;
+}
+form input:focus {
+    background-color: lightblue;
+}
+form textarea {
+    background: lightyellow;
+    background-image: url("/Assets/Images/Lappland_vapen.svg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 2em;
+    resize: none;
+}
+
+article {
+    border: 2px solid gray;
+    border-radius: 2em;
+    margin-bottom: 1em;
+    padding: 1em;
+    background-color: white;
+}
+article h2 {
+    text-align: center;
+}
+
+footer {
+    display: table;
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+#rubrik {
+    text-align: center;
+}
+
+audio {
+    width: 100%;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+/*
+ a:link, a:active, a:visited, a:hover
+*/
+
+nav a {
+    text-decoration: none;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+/* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* selected link */
+a:active {
+    text-decoration: underline;
+}
+
+/* visited link */
+a:visited {
+    color: lightblue;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+#currentSelect {
+    text-decoration: underline;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+table {
+    table-layout: auto;
+    width: 100%;
+}
+
+@media screen and (max-width: 1201px) {
+    #page, #content, aside {
+        width: 100%;
+    }
+
+    #content {
+        padding: 0;
+    }
+
+    article {
+        border: none;
+    }
+    
+}
+
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+    #content {
+        /* Use grid here */
+
+        /* Maybe even change everything to use grid(?) */
+        padding-left: 20vh;
+        padding-right: 20vh;
+    }
+
+}
+
+@media screen and (max-width: 701px) {
+    header {
+        font-size: 1.4em;
+    }
+}
+@media screen and (max-width: 450px) {
+    header {
+        font-size: 1em;
+    }
+}
