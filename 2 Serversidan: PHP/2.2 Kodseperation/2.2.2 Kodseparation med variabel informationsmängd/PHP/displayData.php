@@ -1,13 +1,31 @@
 <?php
-/*
-    $fh = fopen('textfile.txt');
+// Läser in HTML-filen som mall
+$html = file_get_contents('../HTML/displayData.html');
 
-    $date = array();
-    $time = array();
-    $IPadress = array();
-    $browser = array();
+// Tar bort refresh så att sidan inte fortsätter göra en refresh
+$html = str_replace('<meta http-equiv="REFRESH" content="0; URL=/PHP/displayData.php">',
+                    "",
+                    $html);
 
+// Gör en array för varje värde jag vill spara, dvs: datum, tid, IP-adress och webbläsare
+$date = array();
+$time = array();
+$IPadress = array();
+$browser = array();
 
+// Delar upp sidan i 3 delar:
+// En del innan första <!--===xxx===--> markören,
+// en del mellan första och andra <!--===xxx===--> markören,
+// och en sista del efter den andra <!--===xxx===--> markören.
+$html_pieces = explode("<!--===xxx===-->", $html);
+print_r ($html_pieces[0]);
+
+// Läser in filen med alla loggar
+$fp = fopen('textfile.txt', 'r');
+
+// Låser filen åt personen som använder filen
+if (flock($fp, LOCK_EX)) {
+    // En while-loop som läser in info för varje rad och sparar till en array
     while (!feof($fp)) {
         $line = fgets($fp);
         $date[] = $line;
@@ -21,114 +39,22 @@
         $line = fgets($fp);
         $browser[] = $line;
     }
-    fclose($fh);
-
-    foreach ($date as $value) {
-        echo "$value<br>";
-    }
-    echo 'End of date-array';
-    foreach ($time as $value) {
-        echo "$value<br>";
-    }
-    echo 'End of time-array';
-    foreach ($IPadress as $value) {
-        echo "$value<br>";
-    }
-    echo 'End of IP-adress-array';
-    foreach ($browser as $value) {
-        echo "$value<br>";
-    }
-    echo 'End of browser-array';
-*/
-
-$lines = array();
-//$lines = array('a', 'b', 'c', 'd', 'e');
-
-$fp = fopen('textfile.txt', 'r');
-
-/*
-while(!feof($fp)) {
-    $line = fgets($fp);
-
-    $line = trim($line);
-    
-    $lines[] = $line;
+} else {
+    echo "Error locking file!";
 }
 fclose($fp);
 
-foreach ($lines as $value) {
-    echo "$value <br>";
-}
-*/
-
-
-
-$date = array();
-$time = array();
-$IPadress = array();
-$browser = array();
-
-while (!feof($fp)) {
-    $line = fgets($fp);
-    $date[] = $line;
-
-    $line = fgets($fp);
-    $time[] = $line;
-
-    $line = fgets($fp);
-    $IPadress[] = $line;
-
-    $line = fgets($fp);
-    $browser[] = $line;
-}
-fclose($fp);
-
-echo '<!DOCTYPE html>
-<html lang="se">
-<head>
-    <title>Display Data</title>
-    <meta name="author" content="Maximilian Holm">
-    <meta name="description" content="Serversidan PHP">
-    <meta name="generator" content="Visual Studio Code">
-    <meta name="keywords" content="HTML">
-    <meta name="robot" content="index">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/CSS/style.css">
-    
-
-    <!-- Gooele font - Raleway -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-</head>
-<body>
-    <table>
-        <tr>
-            <th>Datum</th>
-            <th>Tid</th>
-            <th>IP adress</th>
-            <th>browser</th>
-        </tr>
-        <tr>
-            <td>Datum</td>
-            <td>Tid</td>
-            <td>IP adress</td>
-            <td>browser</td>
-        </tr>';
-
+// En for-loop som går igenom hur många som har loggats och sedan skriver upp på dom webbsidan
 for ($x = 0; $x < sizeof($date); $x++) {
-    //echo "$date[$x] - $time[$x] - $IPadress[$x] - $browser[$x]<br>";
     echo "<tr>
             <td>$date[$x]</td>
             <td>$time[$x]</td>
             <td>$IPadress[$x]</td>
             <td>$browser[$x]</td>
         </tr>";
-
-
 }
 
-echo '</table>
-</body>
-</html>';
+// Skriver ut sista delen av HTML-koden efter <!--===xxx===--> markören
+print_r ($html_pieces[2]);
 
 ?>
