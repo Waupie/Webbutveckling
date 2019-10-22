@@ -17,10 +17,10 @@ if (flock($file, LOCK_EX)) {
     $added_data = fread($file, filesize($file_name));
     // Här skriver du vad du vill spara i filen
     $file = fopen($file_name, "w");
-    fwrite($file, "Datum:       " . date("Y/m/d\n\n"));
-    fwrite($file, "Tid:         " . date("h:i:sa\n\n"));
-    fwrite($file, "IP-adress:   " . $_SERVER['REMOTE_ADDR'] . "\n\n");
-    fwrite($file, "Webbläsare:  " . $_SERVER['HTTP_USER_AGENT'] . "\n\n");
+    fwrite($file, date("Y/m/d\n"));
+    fwrite($file, date("h:i:sa\n"));
+    fwrite($file, $_SERVER['REMOTE_ADDR'] . "\n");
+    fwrite($file, $_SERVER['HTTP_USER_AGENT'] . "\n");
     fwrite($file, $added_data);
     // Släpper låset på filen
     flock($file, LOCK_UN);

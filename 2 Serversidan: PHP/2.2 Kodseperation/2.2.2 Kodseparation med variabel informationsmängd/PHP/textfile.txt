@@ -1,112 +1,48 @@
-Datum:       2019/10/22
-
-Tid:         11:59:31pm
-
-IP-adress:   127.0.0.1
-
-Webbläsare:  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0
-
-Datum:       2019/10/22
-
-Tid:         11:59:07pm
-
-IP-adress:   127.0.0.1
-
-Webbläsare:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.94
-
-Datum:       2019/10/22
-
-Tid:         11:55:47pm
-
-IP-adress:   127.0.0.1
-
-Webbläsare:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.94
-
-Datum:       2019/10/22
-
-Tid:         11:55:42pm
-
-IP-adress:   127.0.0.1
-
-Webbläsare:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.94
-
-Datum:       2019/10/22
-
-Tid:         11:55:35pm
-
-IP-adress:   127.0.0.1
-
-Webbläsare:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.94
-
-Datum:       2019/10/22
-
-Tid:         11:55:33pm
-
-IP-adress:   127.0.0.1
-
-Webbläsare:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.94
-
-Datum:       2019/10/22
-
-Tid:         11:54:44pm
-
-IP-adress:   127.0.0.1
-
-Webbläsare:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.94
-
-Datum:       2019/10/22
-
-Tid:         11:54:40pm
-
-IP-adress:   127.0.0.1
-
-Webbläsare:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.94
-
-Datum:       2019/10/22
-
-Tid:         11:54:16pm
-
-IP-adress:   127.0.0.1
-
-Webbläsare:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.94
-
-Datum:       2019/10/22
-
-Tid:         11:54:05pm
-
-IP-adress:   127.0.0.1
-
-Webbläsare:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.94
-
-Datum:       2019/10/22
-
-Tid:         11:53:32pm
-
-IP-adress:   127.0.0.1
-
-Webbläsare:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.94
-
-Datum:       2019/10/22
-
-Tid:         11:32:08pm
-
-IP-adress:   127.0.0.1
-
-Webbläsare:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.94
-
-Datum:       2019/10/22
-
-Tid:         11:32:07pm
-
-IP-adress:   127.0.0.1
-
-Webbläsare:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.94
-
-Datum:       2019/10/22
-
-Tid:         11:32:05pm
-
-IP-adress:   127.0.0.1
-
-Webbläsare:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.94
-
+2019/10/23
+12:51:15am
+127.0.0.1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.94
+2019/10/23
+12:51:14am
+127.0.0.1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.94
+2019/10/23
+12:51:14am
+127.0.0.1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.94
+2019/10/23
+12:51:14am
+127.0.0.1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.94
+2019/10/23
+12:51:14am
+127.0.0.1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.94
+2019/10/23
+12:51:13am
+127.0.0.1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.94
+2019/10/23
+12:51:12am
+127.0.0.1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.94
+2019/10/23
+12:47:19am
+127.0.0.1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.94
+2019/10/23
+12:47:19am
+127.0.0.1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.94
+2019/10/23
+12:47:19am
+127.0.0.1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.94
+2019/10/23
+12:47:18am
+127.0.0.1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.94
+2019/10/23
+12:47:16am
+127.0.0.1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.94
